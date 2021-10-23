@@ -10,7 +10,7 @@ body{
     row-gap: 1%;
     padding: 15px 0 15px 0;
 }
-.top{
+.main_top{
     height: 15%;
     width: 100%;
     background-color: #d5ef85;
@@ -23,28 +23,28 @@ body{
     column-gap: 2%;
     height: 68%;
 }
-.main_left{
+.main_body__left{
     height: 100%;
     width: 28%;
     background-color: #eaa9ee;
     border: 2px solid #333;
     box-sizing: border-box;
 }
-.main_right{
+.main_body__right{
     height: 100%;
     width: 70%;
     display: flex;
     flex-direction: column;
     row-gap: 4%;
 }
-.block{
+.main_body__right > div{
     height: 48%;
     width: 100%;
     border: 2px solid #333;
     box-sizing: border-box;
     background-color: #37c9ec;
 }
-.bottom{
+.main_bottom{
     height: 15%;
     width: 100%;
     background-color: #d5ef85;
